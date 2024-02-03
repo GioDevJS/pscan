@@ -54,7 +54,7 @@ def scan_target(ip_address, ports_str, threads=10, verbose=False, timeout=1, out
     if open_ports:
         print("Open ports:", open_ports)
     else:
-        print("No open ports found.")
+        print("Port Scanned is closed or filtered.")
 
 def main():
     parser = argparse.ArgumentParser(description="Advanced Port Scanner")
